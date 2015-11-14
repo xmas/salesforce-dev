@@ -13,7 +13,7 @@ public with sharing class CurrencyBot {
 			//Schema.DisplayType fieldType = tuple.field.getDescribe().getType();
             //String fieldName = fieldType.name();
 
-			System.debug(objectName+' [] '+ tuple.field.getDescribe().getName());
+			System.debug(objectName+' \\| '+ tuple.field.getDescribe().getName());
 
 		}
 
