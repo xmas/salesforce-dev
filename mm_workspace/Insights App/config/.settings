@@ -1,0 +1,16 @@
+{
+    "projectName": "Insights App",
+    "username": "rowanxmas@gmail.com",
+    "id": "4171b760-8a4b-11e5-aba7-e73f00e436ea",
+    "namespace": "",
+    "environment": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "workspace": "/Users/xmas/Salesforce/salesforce-dev/mm_workspace",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource",
+    ]
+}

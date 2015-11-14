@@ -1,0 +1,27 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p61000005Sxj9AAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p61000005Sxj9AAC",
+    "methods": [],
+    "name": "AttachmentImageController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "AttachmentImageController",
+        "references": [],
+        "type": "AttachmentImageController"
+    },
+    "variables": []
+}
