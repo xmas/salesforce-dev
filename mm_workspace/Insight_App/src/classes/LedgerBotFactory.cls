@@ -35,8 +35,5 @@ public with sharing class LedgerBotFactory {
 		}
 		return null;
 	}
-
-	public LedgerBotFactory() {
-
-	}
+	
 }
