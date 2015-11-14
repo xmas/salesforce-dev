@@ -1,0 +1,110 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 39
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "LedgerBotFactory",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p61000006Z7DTAA0",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p61000006Z7DTAA0",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getLedgerBot",
+            "parameters": [
+                {
+                    "name": "ledgerBotName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LedgerBot__c",
+            "type": null
+        }
+    ],
+    "name": "LedgerBotFactory",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "LedgerBotFactory",
+        "references": [],
+        "type": "LedgerBotFactory"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "ledgerBotName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "existingLedgerBots",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "ledgerBot",
+            "references": [],
+            "type": "LedgerBot__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "newLedgerBot",
+            "references": [],
+            "type": "LedgerBot__c"
+        }
+    ]
+}
