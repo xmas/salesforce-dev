@@ -1,4 +1,4 @@
-public with sharing class LedgerBotFactory {
+public static with sharing class LedgerBotFactory {
 
 	public static LedgerBot__c getLedgerBot(String ledgerBotName) {
 
@@ -35,5 +35,4 @@ public with sharing class LedgerBotFactory {
 		}
 		return null;
 	}
-	
 }
