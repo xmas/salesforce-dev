@@ -182,5 +182,47 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "CurrencyBot.cls": {
+        "createdById": "005610000012IXIAA2",
+        "createdByName": "Rowan Christmas",
+        "createdDate": "2015-11-14T04:15:10.000Z",
+        "fileName": "unpackaged/classes/CurrencyBot.cls",
+        "fullName": "CurrencyBot",
+        "id": "01p61000006ZOEcAAO",
+        "lastModifiedById": "005610000012IXIAA2",
+        "lastModifiedByName": "Rowan Christmas",
+        "lastModifiedDate": "2015-11-14T04:15:10.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "DataBot.cls": {
+        "createdById": "005610000012IXIAA2",
+        "createdByName": "Rowan Christmas",
+        "createdDate": "2015-11-14T04:19:42.000Z",
+        "fileName": "unpackaged/classes/DataBot.cls",
+        "fullName": "DataBot",
+        "id": "01p61000006ZOEmAAO",
+        "lastModifiedById": "005610000012IXIAA2",
+        "lastModifiedByName": "Rowan Christmas",
+        "lastModifiedDate": "2015-11-14T04:19:42.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "DataBotObjectFieldTuple.cls": {
+        "createdById": "005610000012IXIAA2",
+        "createdByName": "Rowan Christmas",
+        "createdDate": "2015-11-14T04:31:17.000Z",
+        "fileName": "unpackaged/classes/DataBotObjectFieldTuple.cls",
+        "fullName": "DataBotObjectFieldTuple",
+        "id": "01p61000006ZOErAAO",
+        "lastModifiedById": "005610000012IXIAA2",
+        "lastModifiedByName": "Rowan Christmas",
+        "lastModifiedDate": "2015-11-14T04:31:17.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }

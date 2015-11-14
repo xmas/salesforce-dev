@@ -1,0 +1,84 @@
+34.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WORKFLOW,INFO
+Execute Anonymous: // Map<String, Schema.SObjectType> gd = Schema.getGlobalDescribe();
+Execute Anonymous: //
+Execute Anonymous: // System.debug(gd.keySet());
+Execute Anonymous: //
+Execute Anonymous: // for (String key : gd.keySet()) {
+Execute Anonymous: //
+Execute Anonymous: //     SObjectType objType = gd.get(key);
+Execute Anonymous: //     String objectName = objType.getDescribe().getLabel();
+Execute Anonymous: //     //System.debug('NAME: '+objectName);
+Execute Anonymous: //
+Execute Anonymous: //     for (Schema.SObjectField field : objType.getDescribe().fields.getMap().values()){
+Execute Anonymous: //         Schema.DisplayType fieldType = field.getDescribe().getType();
+Execute Anonymous: //         if (fieldType == Schema.DisplayType.Currency) {
+Execute Anonymous: //             System.debug('Object Name= '+objectName+' API Field Name =  '+field.getDescribe().getName()+' ---API Field Type= '+fieldType.name());
+Execute Anonymous: //         }
+Execute Anonymous: //     }
+Execute Anonymous: //
+Execute Anonymous: // }
+Execute Anonymous: 
+Execute Anonymous: // String sobjectname = 'Case' ;//object api name
+Execute Anonymous: // String fieldapiName = 'Status';//Field api name
+Execute Anonymous: // String fieldTypeName = Schema.getGlobalDescribe().get(sobjectname).getDescribe().fields.getMap().get(fieldapiName).getDescribe().getType().name().toupperCase();
+Execute Anonymous: // System.debug('***fieldTypeName**'+fieldTypeName);
+Execute Anonymous: 
+Execute Anonymous: CurrencyBot cBot = new CurrencyBot();
+20:45:18.057 (57233086)|EXECUTION_STARTED
+20:45:18.057 (57243230)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+20:45:18.058 (58448335)|VARIABLE_SCOPE_BEGIN|[25]|cBot|CurrencyBot|true|false
+20:45:18.058 (58639645)|HEAP_ALLOCATE|[72]|Bytes:3
+20:45:18.058 (58718162)|HEAP_ALLOCATE|[77]|Bytes:152
+20:45:18.058 (58758045)|HEAP_ALLOCATE|[342]|Bytes:408
+20:45:18.058 (58800648)|HEAP_ALLOCATE|[355]|Bytes:408
+20:45:18.058 (58840039)|HEAP_ALLOCATE|[467]|Bytes:48
+20:45:18.058 (58901487)|HEAP_ALLOCATE|[139]|Bytes:6
+20:45:18.058 (58950881)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:2
+20:45:18.058 (58986799)|STATEMENT_EXECUTE|[1]
+20:45:18.058 (58993269)|STATEMENT_EXECUTE|[25]
+20:45:18.059 (59002993)|HEAP_ALLOCATE|[25]|Bytes:1
+20:45:18.059 (59060613)|METHOD_ENTRY|[1]|01p61000006ZOEc|CurrencyBot.CurrencyBot()
+20:45:18.059 (59070285)|STATEMENT_EXECUTE|[1]
+20:45:18.059 (59076903)|STATEMENT_EXECUTE|[1]
+20:45:18.059 (59133986)|HEAP_ALLOCATE|[50]|Bytes:5
+20:45:18.059 (59173083)|HEAP_ALLOCATE|[56]|Bytes:5
+20:45:18.059 (59195545)|HEAP_ALLOCATE|[64]|Bytes:7
+20:45:18.059 (59229929)|SYSTEM_MODE_ENTER|false
+20:45:18.059 (59261351)|HEAP_ALLOCATE|[25]|Bytes:5
+20:45:18.059 (59271315)|SYSTEM_MODE_EXIT|false
+20:45:18.059 (59284633)|METHOD_EXIT|[1]|CurrencyBot
+20:45:18.059 (59305644)|HEAP_ALLOCATE|[25]|Bytes:4
+20:45:18.059 (59333338)|SYSTEM_MODE_ENTER|false
+20:45:18.059 (59352600)|HEAP_ALLOCATE|[25]|Bytes:5
+20:45:18.059 (59367466)|CONSTRUCTOR_ENTRY|[25]|01p61000006ZOEc|<init>()
+20:45:18.059 (59406355)|VARIABLE_SCOPE_BEGIN|[2]|this|CurrencyBot|true|false
+20:45:18.059 (59447604)|VARIABLE_ASSIGNMENT|[2]|this|{}|0x7292fa1f
+20:45:18.059 (59457410)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+20:45:18.059 (59462586)|STATEMENT_EXECUTE|[1]
+20:45:18.059 (59466119)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+20:45:18.059 (59478103)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:6
+20:45:18.059 (59505912)|VARIABLE_SCOPE_BEGIN|[2]|this|System.ApexBaseClass|true|false
+20:45:18.059 (59530502)|VARIABLE_ASSIGNMENT|[2]|this|{}|0x7292fa1f
+20:45:18.059 (59544399)|STATEMENT_EXECUTE|[2]
+20:45:18.059 (59557615)|CONSTRUCTOR_EXIT|[25]|01p61000006ZOEc|<init>()
+20:45:18.059 (59565461)|SYSTEM_MODE_EXIT|false
+20:45:18.059 (59598897)|VARIABLE_ASSIGNMENT|[25]|cBot|{}|0x7292fa1f
+20:45:18.059 (59665275)|CUMULATIVE_LIMIT_USAGE
+20:45:18.059 (59665275)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+20:45:18.059 (59665275)|CUMULATIVE_LIMIT_USAGE_END
+
+20:45:18.059 (59713103)|CODE_UNIT_FINISHED|execute_anonymous_apex
+20:45:18.060 (60964967)|EXECUTION_FINISHED
