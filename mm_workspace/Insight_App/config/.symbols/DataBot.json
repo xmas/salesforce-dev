@@ -1,0 +1,165 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 26
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "DataBot",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p61000006ZOEmAAO",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p61000006ZOEmAAO",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getTuplesForType",
+            "parameters": [
+                {
+                    "name": "displayType",
+                    "type": "DisplayType"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "DataBot",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "DataBot",
+        "references": [],
+        "type": "DataBot"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "displayType",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "gd",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "matchingTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "key",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "fieldType",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "tuple",
+            "references": [],
+            "type": "DataBotObjectFieldTuple"
+        }
+    ]
+}

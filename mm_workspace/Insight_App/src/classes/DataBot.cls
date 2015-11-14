@@ -13,7 +13,7 @@ public with sharing class DataBot {
 		    for (Schema.SObjectField field: objType.getDescribe().fields.getMap().values()){
 		        Schema.DisplayType fieldType = field.getDescribe().getType();
 		        if (fieldType == displayType) {
-		            System.debug('Object Name= '+objectName+' API Field Name =  '+field.getDescribe().getName()+' ---API Field Type= '+fieldType.name());
+		            //System.debug('Object Name= '+objectName+' API Field Name =  '+field.getDescribe().getName()+' ---API Field Type= '+fieldType.name());
 
 					DataBotObjectFieldTuple tuple = new DataBotObjectFieldTuple(objType, field);
 					matchingTypes.add(tuple);

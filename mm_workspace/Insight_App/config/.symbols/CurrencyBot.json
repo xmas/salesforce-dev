@@ -1,0 +1,77 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "CurrencyBot",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p61000006ZOEcAAO",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p61000006ZOEcAAO",
+    "methods": [],
+    "name": "CurrencyBot",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "CurrencyBot",
+        "references": [],
+        "type": "CurrencyBot"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "matchingTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "tuple",
+            "references": [],
+            "type": "DataBotObjectFieldTuple"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}
