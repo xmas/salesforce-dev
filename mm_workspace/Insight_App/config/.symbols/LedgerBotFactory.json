@@ -1,20 +1,5 @@
 {
-    "constructors": [
-        {
-            "annotations": [],
-            "location": {
-                "column": 9,
-                "line": 39
-            },
-            "modifiers": [
-                "public"
-            ],
-            "name": "LedgerBotFactory",
-            "parameters": [],
-            "references": [],
-            "type": null
-        }
-    ],
+    "constructors": [],
     "externalReferences": [],
     "id": "01p61000006Z7DTAA0",
     "innerClasses": [],

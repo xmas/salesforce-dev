@@ -1,0 +1,102 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "DataBotObjectFieldTuple",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "field",
+                    "type": "SObjectField"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p61000006ZOErAAO",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p61000006ZOErAAO",
+    "methods": [],
+    "name": "DataBotObjectFieldTuple",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "field",
+            "references": [],
+            "type": "SObjectField"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "DataBotObjectFieldTuple",
+        "references": [],
+        "type": "DataBotObjectFieldTuple"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "SObjectField"
+        }
+    ]
+}

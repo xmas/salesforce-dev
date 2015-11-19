@@ -1,0 +1,253 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 43
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "DataBot",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p61000006ZOEmAAO",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p61000006ZOEmAAO",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getTuplesForType",
+            "parameters": [
+                {
+                    "name": "displayType",
+                    "type": "DisplayType"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 26
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createInsight",
+            "parameters": [
+                {
+                    "name": "name",
+                    "type": "String"
+                },
+                {
+                    "name": "data_source",
+                    "type": "String"
+                },
+                {
+                    "name": "data_source_icon_url",
+                    "type": "String"
+                },
+                {
+                    "name": "details",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Insight__c",
+            "type": null
+        }
+    ],
+    "name": "DataBot",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "DataBot",
+        "references": [],
+        "type": "DataBot"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "displayType",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "gd",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "matchingTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "key",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "fieldType",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "tuple",
+            "references": [],
+            "type": "DataBotObjectFieldTuple"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "name",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "data_source",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 85,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "data_source_icon_url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 114,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "details",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "insight",
+            "references": [],
+            "type": "Insight__c"
+        }
+    ]
+}

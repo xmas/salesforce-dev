@@ -1,0 +1,77 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p61000005QuGOAA0",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p61000005QuGOAA0",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getInsights",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 11
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getFeedItemCountForObject",
+            "parameters": [
+                {
+                    "name": "object_id",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        }
+    ],
+    "name": "InsightsController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "InsightsController",
+        "references": [],
+        "type": "InsightsController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "object_id",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}
